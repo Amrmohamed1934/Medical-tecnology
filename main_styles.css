@@ -1,23 +1,5 @@
 /* CSS Document */
-/******************************
 
-[Table of Contents]
-
-1. Fonts
-2. Body and some general stuff
-3. Header
-4. Menu
-5. Home
-6. Intro
-7. Why
-8. CTA
-9. Services
-10. Extra
-11. Newsletter
-12. Footer
-
-
-******************************/
 /***********
 1. Fonts
 ***********/
@@ -217,7 +199,7 @@ section {
 
 .button {
   height: 46px;
-  border-radius: 20px; }
+  border-radius: 9px; }
   .button a {
     display: block;
     padding-left: 20px;
@@ -270,19 +252,37 @@ section {
     .b1:hover a {
       color: #57ccc3; }
 
-.b2 {
-  background: #fd556d;
-  /*#800*/
-  border: solid 2px #fd556d;
-  /*#800*/ }
-  .b2 a {
-    color: #fff; }
-  .b2:hover {
+.signupbtn{
+  background: #333;
+  border: solid 2px #333; 
+}
+.signupbtn a {
+    color: #FFF; 
+}
+.signupbtn:hover {
     background: #fff;
-    border: solid 2px #fd556d;
-    /*#800*/ }
-    .b2:hover a {
-      color: #fd556d; }
+    border: solid 2px #333;
+    transition : 1s;
+}
+.signupbtn:hover a {
+      color: #333; 
+}
+.b2 {
+  background: #57ccc3;
+  /*#800*/
+  border: solid 2px #57ccc3;
+  /*#800*/ }
+.b2 a {
+    color: #fff; }
+.b2:hover {
+    background: #fff;
+    border: solid 2px #57ccc3;
+    transition : 1s;
+    /*#800*/ 
+}
+.b2:hover a {
+    color: #57ccc3;
+}
 
 .section_subtitle {
   font-size: 18px;
@@ -296,7 +296,7 @@ section {
 }
 
 .intro_text {
-  margin-top: 32px; }
+  margin-top: 10px; }
 
 /*********************************
 3. Header
@@ -565,8 +565,8 @@ section {
 *********************************/
 .home {
   width: 100%;
-  height: 768px;
-  margin-top: 117px; }
+  height: 690px;
+  margin-top: 115px; }
 
 .home_slider_container {
   width: 100%;
@@ -616,14 +616,18 @@ section {
   position: absolute;
   bottom: 55px;
   left: calc((100vw - 1140px) / 2);
-  z-index: 1; }
+  z-index: 1;
+}
 
 .home_slider_custom_dot {
   width: 8px;
   height: 8px;
   background: #b4b4b4;
-  border-radius: 50%;
-  cursor: pointer; }
+  border-radius: 20%;
+  cursor: pointer;
+  outline: none;
+  padding-left: 30px;
+}
 
 .home_slider_custom_dot.active,
 .home_slider_custom_dot:hover {
@@ -912,17 +916,18 @@ section {
 10. Extra
 *********************************/
 .extra {
-  padding-top: 54px;
-  padding-bottom: 53px; }
+    height: 700px;
+}
 
 .extra_content {
   background: #FFFFFF;
   width: 393px;
   border-radius: 25px;
   padding-top: 20px;
-  padding-left: 46px;
-  padding-right: 30px;
+  padding-left: 36px;
+  padding-right: 36px;
   padding-bottom: 25px;
+  margin-top:65px;
   box-shadow: 0px 25px 38px rgba(0, 0, 0, 0.2); }
 
 .extra_disc > div:first-child {
