@@ -14,13 +14,14 @@
 <link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
 <link rel="icon" type="image/ico" href="images/iconstwo.png" />
 <link rel="stylesheet" type="text/css" href="main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/login.css">    
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
 <body>
 
 <div class="super_container">
 	
-	<!-- Header -->
+	<!-- start Header -->
 
 	<header class="header trans_400" id="headerlogo">
 		<div class="header_content d-flex flex-row align-items-center jusity-content-start trans_400">
@@ -38,10 +39,7 @@
 					<li class="active"><a href="index.html">Home</a></li>
 					<li><a href="#BestCare ">Best Care</a></li>
 					<li><a href="#whych">Why choose us?</a></li>
-                    <!-- start work -->
-                        <li class="drop-down buttonlink">
-				<a href="#" class="productlink">Services</a>
-                    
+                    <li><a href="#Services">Services</a></li>
 					<li><a href="#offers">Offers</a></li>
                     <li><a href="#Contactus">Contact us</a></li>
 
@@ -50,16 +48,20 @@
             
 			<div class="header_extra d-flex flex-row align-items-center justify-content-end ml-auto">
 
-                <div class="button header_button b2"><a href="login.html">Sign in</a></div>
-                <div class="button header_button signupbtn"><a href="login.html">Sign up</a></div>
-
-				<!-- Hamburger -->
+                <div class="button header_button b2">
+                    <a href='login.html'>Sign in</a>
+                </div>
+                
+                
+            <!-- Hamburger main icon display when minimize size of screen  -->
 				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
 			</div>
 		</div>
 	</header>
+    
+    <!-- end  Header -->
 
-	<!-- Menu -->
+	<!-- start Menu -->
 
 	<div class="menu_overlay trans_400"></div>
 	<div class="menu trans_400">
@@ -88,8 +90,10 @@
 			</ul>
 		</div>
 	</div>
-
-	<!-- Home -->
+    
+<!--End Menu-->
+    
+	<!-- start Home -->
 
 	<div class="home">
 
@@ -97,7 +101,7 @@
 		<div class="home_slider_container">
 			<div class="owl-carousel owl-theme home_slider">
 				
-				<!-- Slide -->
+				<!-- Slide 1 -->
 				<div class="owl-item slidestop">
 					<div class="background_image" style="background-image:url(images/slide/1.jpg)"></div>
 					<div class="home_container">
@@ -123,7 +127,7 @@
 					</div>
 				</div>
 
-				<!-- Slide -->
+				<!-- Slide 2 -->
 				<div class="owl-item slidestop">
 					<div class="background_image" style="background-image:url(images/slide/2.jpg)"></div>
 					<div class="home_container">
@@ -148,7 +152,7 @@
 					</div>
 				</div>
 
-				<!-- Slide -->
+				<!-- Slide 3 -->
 				<div class="owl-item slidestop">
 					<div class="background_image" style="background-image:url(images/slide/3.jpg)"></div>
 					<div class="home_container">
@@ -186,19 +190,23 @@
 
 		</div>
 	</div>
+    
+    <!-- end Home -->
 
-	<!-- Intro -->
+	<!-- start BestCare -->
 
 	<div class="intro" id="BestCare">
 		<div class="container">
 			<div class="row row-eq-height">
 
-				<!-- Intro Content -->
+				<!-- BestCare Content -->
+                
 				<div class="col-lg-6 order-lg-1 order-1">
 					<div class="intro_content">
 						<div class="section_title_container">
                             <h6><span class="stc">Welco</span>me to Medical Tecnology</h6>
-							<div class="section_title"><h2>Best Care For Your Good Health</h2></div>
+							<div class="section_title"><h2>Best Care For Your Good Health</h2>
+                            </div>
 						</div>
 						<div class="intro_text">
 							<p>Integer aliquet congue libero, eu gravida odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna vestibulum in. Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci elementum eleifend tempor, nunc libero porttitor tellus, vel pharetra metus dolor.</p>
@@ -209,7 +217,7 @@
 								<!-- Milestone -->
 								<div class="col-md-4 milestone_col">
 									<div class="milestone">
-										<div class="milestone_counter" data-end-value="5000" data-sign-before="+">0</div>
+										<div class="milestone_counter" data-end-value="2000" data-sign-before="+">0</div>
 										<div class="milestone_text">Apartments frequently</div>
 									</div>
 								</div>
@@ -217,7 +225,7 @@
 								<!-- Milestone -->
 								<div class="col-md-4 milestone_col">
 									<div class="milestone">
-										<div class="milestone_counter" data-end-value="500" data-sign-before="+">0</div>
+										<div class="milestone_counter" data-end-value="400" data-sign-before="+">0</div>
 										<div class="milestone_text">Duis auto</div>
 									</div>
 								</div>
@@ -225,7 +233,7 @@
 								<!-- Milestone -->
 								<div class="col-md-4 milestone_col">
 									<div class="milestone">
-										<div class="milestone_counter" data-end-value="800" data-sign-before="+">0</div>
+										<div class="milestone_counter" data-end-value="200" data-sign-before="+">0</div>
 										<div class="milestone_text">Voluptatem quia</div>
 									</div>
 								</div>
@@ -247,7 +255,9 @@
 		</div>
 	</div>
 
-	<!-- Why Choose Us -->
+<!-- end BestCare -->
+    
+	<!-- start Why Choose Us -->
 
 	<div class="why" id="whych">
 		<div class="container">
@@ -310,7 +320,9 @@
 			</div>
 		</div>
 	</div>
-	<!-- Services -->
+    <!-- end Why Choose Us -->
+
+	<!-- start Services -->
 
 	<div class="services" id="services">
 		<div class="container">
@@ -416,8 +428,10 @@
 			</div>
 		</div>
 	</div>
+    
+	<!-- End Services -->
 
-	<!-- Extra -->
+	<!-- start offers -->
 
 	<div class="extra" id="offers">
 		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/extra2.jpg" data-speed="0.8"></div>
@@ -444,7 +458,10 @@
 			</div>
 		</div>
 	</div>
-
+    
+	<!-- end offers -->
+    
+<!--remove this part from site  -->
 	<!-- Newsletter -->
 
 <!--
@@ -470,7 +487,7 @@
 	</div>
 -->
 
-	<!-- Footer -->
+	<!-- start Footer -->
 
 	<footer class="footer" id="Contactus">
 		<div class="footer_content">
@@ -526,9 +543,6 @@
                             </div>
                         </div>
 					</div>
-
-					<!-- Footer Opening Hours -->
-					<!-- end footer opentime -->
 				</div>
 			</div>
 		</div>
@@ -546,7 +560,10 @@
 			</div>			
 		</div>
 	</footer>
+    <!-- End Footer -->
+
 </div>
+    <!--End container-->
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap-4.1.2/popper.js"></script>
@@ -572,18 +589,6 @@
 
   gtag('config', 'UA-23581568-13');
 </script>
-<script>
-    
-     $(document).ready(function () {
-        
-        $(".buttonlink").click(function(){
-            $(".mega-menu").fadeToggle();
 
-        });
-
-
-
-     });
-</script>
 </body>
 </html>
